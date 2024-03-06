@@ -1,31 +1,35 @@
 import "./portfolio.scss";
 import {motion, useScroll, useSpring, useTransform} from "framer-motion";
 import React, { useRef } from "react";
+import WeatherAppImage from "../../../public/weather-app.png"
+import BloodChain from "../../../public/bloodchain.png"
+import Cineflix from "../../../public/cineflix.png"
+import Nyancat from "../../../public/nyancat.png"
 
 const items = [
     {
         id:1,
-        title: "React Commerce",
-        img: "https://images.pexels.com/photos/919734/pexels-photo-919734.jpeg?auto=compress&cs=tinysrgb&w=600",
-        desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus porro quisquam veritatis ratione iusto sit esse, laborum doloremque in odit error illo, ut nobis optio suscipit aperiam perferendis officiis ullam.",
+        title: "ClimaCast",
+        img: WeatherAppImage,
+        desc: "Responsive weather app developed by using an openWeather API. It shows current weather, weather history, weather forecast and weather alerts also.",
     },
     {
         id:2,
-        title: "Next js Commerce",
-        img: "https://images.pexels.com/photos/256381/pexels-photo-256381.jpeg?auto=compress&cs=tinysrgb&w=600",
-        desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus porro quisquam veritatis ratione iusto sit esse, laborum doloremque in odit error illo, ut nobis optio suscipit aperiam perferendis officiis ullam.",
+        title: "BloodChain",
+        img: BloodChain,
+        desc: "Presently engaging with this Software Development Group Project at IIT. BloodChain is a decentralized aplication (Web3) to establish direct communication between donors and recipients during the process of requesting and donating blood.",
     },
     {
         id:3,
-        title: "Vanilla Commerce",
-        img: "https://images.pexels.com/photos/572056/pexels-photo-572056.jpeg?auto=compress&cs=tinysrgb&w=600",
-        desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus porro quisquam veritatis ratione iusto sit esse, laborum doloremque in odit error illo, ut nobis optio suscipit aperiam perferendis officiis ullam.",
+        title: "Cineflix",
+        img: Cineflix,
+        desc: "Front end of a responsive website to review and sell movies online.",
     },
     {
         id:4,
-        title: "Music App",
-        img: "https://images.pexels.com/photos/404280/pexels-photo-404280.jpeg?auto=compress&cs=tinysrgb&w=600",
-        desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus porro quisquam veritatis ratione iusto sit esse, laborum doloremque in odit error illo, ut nobis optio suscipit aperiam perferendis officiis ullam.",
+        title: "Nyan Cat",
+        img: Nyancat,
+        desc: "A mini game to click on a moving cat until it’s nine lives coming to an end.",
     },
 ];
 

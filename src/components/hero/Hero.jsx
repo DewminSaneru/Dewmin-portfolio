@@ -49,10 +49,10 @@ const Hero = () => {
                     animate="animate"
                 >
                     <motion.h2 variants={textVariants}>DEWMIN SANERU</motion.h2>
-                    <motion.h1 variants={textVariants}>Web Developer and UI Designer</motion.h1>
+                    <motion.h1 variants={textVariants}>Web Developer | SE Undergraduate</motion.h1>
                     <motion.div variants={textVariants} className="buttons">
                         <motion.button variants={textVariants}>See the Latest Works</motion.button>
-                        <motion.button variants={textVariants}>Contact Me</motion.button>
+                        <motion.button variants={textVariants} href = "/Contact">Contact Me</motion.button>
                     </motion.div>
                     <motion.img variants={textVariants} animate="scrollButton" src="/scroll.png" alt=""/>
                 </motion.div>
